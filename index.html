@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA TECH - Solutions Informatiques & Digitales</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ENTÊTE & NAVIGATION -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                NOVA<span>TECH</span>
+            </a>
+
+            <!-- Checkbox invisible pour gérer le menu mobile purement en CSS -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="contact.html" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECTION HERO (ACCUEIL) -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">Solutions Informatiques sur-mesure</span>
+                <h1>Propulsez votre infrastructure informatique vers le futur</h1>
+                <p>NOVA TECH accompagne les particuliers, PME et entreprises dans la gestion, la sécurisation et le
+                    développement de leurs systèmes informatiques.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">Découvrir nos services</a>
+                    <a href="contact.html" class="btn btn-secondary">Demander un devis</a>
+                </div>
+            </div>
+
+            <div class="hero-bg-image"></div>
+
+
+        </div>
+    </section>
+
+    <!-- AVANTAGES / POURQUOI NOUS CHOISIR -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pourquoi choisir NOVA TECH ?</h2>
+                <p>Des engagements clairs pour répondre à l'ensemble de vos besoins informatiques.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Réactivité & Rapidité</h3>
+                    <p>Intervention rapide pour limiter tout impact sur votre activité professionnelle ou personnelle.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3>Expertise Reconnue</h3>
+                    <p>Une équipe de spécialistes passionnés par les technologies de pointe et la cybersécurité.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3>Accompagnement Sur-Mesure</h3>
+                    <p>Des solutions adaptées aux particuliers, indépendants, TPE et grandes entreprises.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APERÇU DES SERVICES -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos domaines d'intervention</h2>
+                <p>Un ensemble de prestations complètes pour vos équipements et réseaux.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-laptop-medical service-icon"></i>
+                    <h3>Maintenance & Dépannage</h3>
+                    <p>Assistance matérielle et logicielle pour particuliers et professionnels.</p>
+                    <a href="services.html" class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-network-wired service-icon"></i>
+                    <h3>Réseaux & Infrastructures</h3>
+                    <p>Installation, configuration et sécurisation de réseaux informatiques.</p>
+                    <a href="services.html" class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-code service-icon"></i>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites vitrines et d'applications web sur-mesure.</p>
+                    <a href="services.html" class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION APPEL À L'ACTION (CTA) -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <h2>Vous avez un projet ou une urgence informatique ?</h2>
+            <p>Nos experts sont à votre disposition pour analyser vos besoins et vous proposer la meilleure solution.
+            </p>
+            <a href="contact.html" class="btn btn-light">Contactez-nous dès aujourd'hui</a>
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo text-white">NOVA<span>TECH</span></a>
+                <p>Votre partenaire de confiance pour des solutions informatiques fiables et pérennes.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Rue de l'Innovation, Paris</p>
+                <p><i class="fa-solid fa-phone"></i> +33 1 23 45 67 89</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@novatech.fr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 NOVA TECH. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
